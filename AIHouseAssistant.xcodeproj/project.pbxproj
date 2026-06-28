@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001 /* AIHouseAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100001 /* AIHouseAssistantApp.swift */; };
+		AA000002 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100002 /* RootView.swift */; };
+		AA000003 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100003 /* AppConfig.swift */; };
+		AA000004 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100004 /* AppLogger.swift */; };
+		AA000005 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100005 /* NetworkManager.swift */; };
+		AA000006 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100006 /* NetworkError.swift */; };
+		AA000007 /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100007 /* APIEndpoints.swift */; };
+		AA000008 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100008 /* DependencyContainer.swift */; };
+		AA000009 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100009 /* StorageManager.swift */; };
+		AA000010 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100010 /* AppConstants.swift */; };
+		AA000011 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100011 /* Theme.swift */; };
+		AA000012 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100012 /* View+Extensions.swift */; };
+		AA000013 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100013 /* Color+Extensions.swift */; };
+		AA000014 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100014 /* String+Extensions.swift */; };
+		AA000015 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100015 /* Date+Extensions.swift */; };
+		AA000016 /* PlaceholderHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100016 /* PlaceholderHomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA100001 /* AIHouseAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AIHouseAssistantApp.swift"; sourceTree = "<group>"; };
+		AA100002 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootView.swift"; sourceTree = "<group>"; };
+		AA100003 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppConfig.swift"; sourceTree = "<group>"; };
+		AA100004 /* AppLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppLogger.swift"; sourceTree = "<group>"; };
+		AA100005 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkManager.swift"; sourceTree = "<group>"; };
+		AA100006 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkError.swift"; sourceTree = "<group>"; };
+		AA100007 /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIEndpoints.swift"; sourceTree = "<group>"; };
+		AA100008 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DependencyContainer.swift"; sourceTree = "<group>"; };
+		AA100009 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageManager.swift"; sourceTree = "<group>"; };
+		AA100010 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppConstants.swift"; sourceTree = "<group>"; };
+		AA100011 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Theme.swift"; sourceTree = "<group>"; };
+		AA100012 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		AA100013 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		AA100014 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		AA100015 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		AA100016 /* PlaceholderHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaceholderHomeView.swift"; sourceTree = "<group>"; };
+		AAPROD001 /* AIHouseAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AIHouseAssistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABP0001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAGRP0000 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				AAGRP0001 /* AIHouseAssistant */,
+				AAGRP00FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAGRP00FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAPROD001 /* AIHouseAssistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAGRP0001 /* AIHouseAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				AAGRP0002 /* App */,
+				AAGRP0010 /* Core */,
+				AAGRP0020 /* Modules */,
+			);
+			path = AIHouseAssistant;
+			sourceTree = "<group>";
+		};
+		AAGRP0002 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AA100001 /* AIHouseAssistantApp.swift */,
+				AA100002 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AAGRP0010 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AAGRP0011 /* Config */,
+				AAGRP0012 /* Logger */,
+				AAGRP0013 /* Network */,
+				AAGRP0014 /* Dependency */,
+				AAGRP0015 /* Storage */,
+				AAGRP0016 /* Constants */,
+				AAGRP0017 /* Utilities */,
+				AAGRP0018 /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AAGRP0011 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				AA100003 /* AppConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		AAGRP0012 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				AA100004 /* AppLogger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		AAGRP0013 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AA100005 /* NetworkManager.swift */,
+				AA100006 /* NetworkError.swift */,
+				AA100007 /* APIEndpoints.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AAGRP0014 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				AA100008 /* DependencyContainer.swift */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		AAGRP0015 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				AA100009 /* StorageManager.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		AAGRP0016 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AA100010 /* AppConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		AAGRP0017 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AA100011 /* Theme.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AAGRP0018 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA100012 /* View+Extensions.swift */,
+				AA100013 /* Color+Extensions.swift */,
+				AA100014 /* String+Extensions.swift */,
+				AA100015 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AAGRP0020 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				AAGRP0021 /* Dashboard */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		AAGRP0021 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				AA100016 /* PlaceholderHomeView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AATGT0001 /* AIHouseAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACFGL001 /* Build configuration list for PBXNativeTarget "AIHouseAssistant" */;
+			buildPhases = (
+				AABP0000 /* Sources */,
+				AABP0001 /* Frameworks */,
+				AABP0002 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = AIHouseAssistant;
+			productName = AIHouseAssistant;
+			productReference = AAPROD001 /* AIHouseAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAPRJ0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					AATGT0001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = AACFGL000 /* Build configuration list for PBXProject "AIHouseAssistant" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh-Hans;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"zh-Hans",
+				en,
+				Base,
+			);
+			mainGroup = AAGRP0000;
+			productRefGroup = AAGRP00FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AATGT0001 /* AIHouseAssistant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AABP0002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABP0000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001 /* AIHouseAssistantApp.swift in Sources */,
+				AA000002 /* RootView.swift in Sources */,
+				AA000003 /* AppConfig.swift in Sources */,
+				AA000004 /* AppLogger.swift in Sources */,
+				AA000005 /* NetworkManager.swift in Sources */,
+				AA000006 /* NetworkError.swift in Sources */,
+				AA000007 /* APIEndpoints.swift in Sources */,
+				AA000008 /* DependencyContainer.swift in Sources */,
+				AA000009 /* StorageManager.swift in Sources */,
+				AA000010 /* AppConstants.swift in Sources */,
+				AA000011 /* Theme.swift in Sources */,
+				AA000012 /* View+Extensions.swift in Sources */,
+				AA000013 /* Color+Extensions.swift in Sources */,
+				AA000014 /* String+Extensions.swift in Sources */,
+				AA000015 /* Date+Extensions.swift in Sources */,
+				AA000016 /* PlaceholderHomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AACFG0001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		AACFG0002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AACFG0003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aihouseassistant.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AACFG0004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aihouseassistant.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AACFGL000 /* Build configuration list for PBXProject "AIHouseAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACFG0001 /* Debug */,
+				AACFG0002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACFGL001 /* Build configuration list for PBXNativeTarget "AIHouseAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACFG0003 /* Debug */,
+				AACFG0004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = AAPRJ0001 /* Project object */;
+}
