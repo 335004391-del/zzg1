@@ -23,6 +23,31 @@
 		AA000014 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100014 /* String+Extensions.swift */; };
 		AA000015 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100015 /* Date+Extensions.swift */; };
 		AA000016 /* PlaceholderHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100016 /* PlaceholderHomeView.swift */; };
+		AB000017 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100017 /* AppColor.swift */; };
+		AB000018 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100018 /* AppFont.swift */; };
+		AB000019 /* AppSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100019 /* AppSpacing.swift */; };
+		AB000020 /* AppRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100020 /* AppRadius.swift */; };
+		AB000021 /* AppShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100021 /* AppShadow.swift */; };
+		AB000022 /* AppAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100022 /* AppAnimation.swift */; };
+		AB000023 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100023 /* AppButton.swift */; };
+		AB000024 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100024 /* AppTextField.swift */; };
+		AB000025 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100025 /* SearchBar.swift */; };
+		AB000026 /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100026 /* PasswordField.swift */; };
+		AB000027 /* NumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100027 /* NumberField.swift */; };
+		AB000028 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100028 /* TextArea.swift */; };
+		AB000029 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100029 /* CardView.swift */; };
+		AB000030 /* InfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100030 /* InfoCard.swift */; };
+		AB000031 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100031 /* StatCard.swift */; };
+		AB000032 /* SectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100032 /* SectionCard.swift */; };
+		AB000033 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100033 /* TagView.swift */; };
+		AB000034 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100034 /* EmptyStateView.swift */; };
+		AB000035 /* AppLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100035 /* AppLoadingView.swift */; };
+		AB000036 /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100036 /* SkeletonView.swift */; };
+		AB000037 /* AppNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100037 /* AppNavigationBar.swift */; };
+		AB000038 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100038 /* ToastView.swift */; };
+		AB000039 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100039 /* BottomSheet.swift */; };
+		AB000040 /* ConfirmDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100040 /* ConfirmDialog.swift */; };
+		AB000041 /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100041 /* LoadingOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +67,31 @@
 		AA100014 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		AA100015 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		AA100016 /* PlaceholderHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaceholderHomeView.swift"; sourceTree = "<group>"; };
+		AB100017 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppColor.swift"; sourceTree = "<group>"; };
+		AB100018 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppFont.swift"; sourceTree = "<group>"; };
+		AB100019 /* AppSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppSpacing.swift"; sourceTree = "<group>"; };
+		AB100020 /* AppRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppRadius.swift"; sourceTree = "<group>"; };
+		AB100021 /* AppShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppShadow.swift"; sourceTree = "<group>"; };
+		AB100022 /* AppAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppAnimation.swift"; sourceTree = "<group>"; };
+		AB100023 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppButton.swift"; sourceTree = "<group>"; };
+		AB100024 /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppTextField.swift"; sourceTree = "<group>"; };
+		AB100025 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchBar.swift"; sourceTree = "<group>"; };
+		AB100026 /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordField.swift"; sourceTree = "<group>"; };
+		AB100027 /* NumberField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberField.swift"; sourceTree = "<group>"; };
+		AB100028 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextArea.swift"; sourceTree = "<group>"; };
+		AB100029 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardView.swift"; sourceTree = "<group>"; };
+		AB100030 /* InfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InfoCard.swift"; sourceTree = "<group>"; };
+		AB100031 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatCard.swift"; sourceTree = "<group>"; };
+		AB100032 /* SectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SectionCard.swift"; sourceTree = "<group>"; };
+		AB100033 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TagView.swift"; sourceTree = "<group>"; };
+		AB100034 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmptyStateView.swift"; sourceTree = "<group>"; };
+		AB100035 /* AppLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppLoadingView.swift"; sourceTree = "<group>"; };
+		AB100036 /* SkeletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SkeletonView.swift"; sourceTree = "<group>"; };
+		AB100037 /* AppNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppNavigationBar.swift"; sourceTree = "<group>"; };
+		AB100038 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToastView.swift"; sourceTree = "<group>"; };
+		AB100039 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BottomSheet.swift"; sourceTree = "<group>"; };
+		AB100040 /* ConfirmDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConfirmDialog.swift"; sourceTree = "<group>"; };
+		AB100041 /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoadingOverlay.swift"; sourceTree = "<group>"; };
 		AAPROD001 /* AIHouseAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AIHouseAssistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,6 +127,7 @@
 				AAGRP0002 /* App */,
 				AAGRP0010 /* Core */,
 				AAGRP0020 /* Modules */,
+				ABGRP0001 /* Components */,
 			);
 			path = AIHouseAssistant;
 			sourceTree = "<group>";
@@ -190,6 +241,102 @@
 			path = Dashboard;
 			sourceTree = "<group>";
 		};
+		ABGRP0001 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ABGRP0002 /* Foundation */,
+				ABGRP0003 /* Buttons */,
+				ABGRP0004 /* Inputs */,
+				ABGRP0005 /* Cards */,
+				ABGRP0006 /* Tags */,
+				ABGRP0007 /* States */,
+				ABGRP0008 /* Navigation */,
+				ABGRP0009 /* Overlays */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		ABGRP0002 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				AB100017 /* AppColor.swift */,
+				AB100018 /* AppFont.swift */,
+				AB100019 /* AppSpacing.swift */,
+				AB100020 /* AppRadius.swift */,
+				AB100021 /* AppShadow.swift */,
+				AB100022 /* AppAnimation.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		ABGRP0003 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				AB100023 /* AppButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		ABGRP0004 /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				AB100024 /* AppTextField.swift */,
+				AB100025 /* SearchBar.swift */,
+				AB100026 /* PasswordField.swift */,
+				AB100027 /* NumberField.swift */,
+				AB100028 /* TextArea.swift */,
+			);
+			path = Inputs;
+			sourceTree = "<group>";
+		};
+		ABGRP0005 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				AB100029 /* CardView.swift */,
+				AB100030 /* InfoCard.swift */,
+				AB100031 /* StatCard.swift */,
+				AB100032 /* SectionCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		ABGRP0006 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				AB100033 /* TagView.swift */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
+		ABGRP0007 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				AB100034 /* EmptyStateView.swift */,
+				AB100035 /* AppLoadingView.swift */,
+				AB100036 /* SkeletonView.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		ABGRP0008 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				AB100037 /* AppNavigationBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		ABGRP0009 /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				AB100038 /* ToastView.swift */,
+				AB100039 /* BottomSheet.swift */,
+				AB100040 /* ConfirmDialog.swift */,
+				AB100041 /* LoadingOverlay.swift */,
+			);
+			path = Overlays;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -272,6 +419,31 @@
 				AA000014 /* String+Extensions.swift in Sources */,
 				AA000015 /* Date+Extensions.swift in Sources */,
 				AA000016 /* PlaceholderHomeView.swift in Sources */,
+				AB000017 /* AppColor.swift in Sources */,
+				AB000018 /* AppFont.swift in Sources */,
+				AB000019 /* AppSpacing.swift in Sources */,
+				AB000020 /* AppRadius.swift in Sources */,
+				AB000021 /* AppShadow.swift in Sources */,
+				AB000022 /* AppAnimation.swift in Sources */,
+				AB000023 /* AppButton.swift in Sources */,
+				AB000024 /* AppTextField.swift in Sources */,
+				AB000025 /* SearchBar.swift in Sources */,
+				AB000026 /* PasswordField.swift in Sources */,
+				AB000027 /* NumberField.swift in Sources */,
+				AB000028 /* TextArea.swift in Sources */,
+				AB000029 /* CardView.swift in Sources */,
+				AB000030 /* InfoCard.swift in Sources */,
+				AB000031 /* StatCard.swift in Sources */,
+				AB000032 /* SectionCard.swift in Sources */,
+				AB000033 /* TagView.swift in Sources */,
+				AB000034 /* EmptyStateView.swift in Sources */,
+				AB000035 /* AppLoadingView.swift in Sources */,
+				AB000036 /* SkeletonView.swift in Sources */,
+				AB000037 /* AppNavigationBar.swift in Sources */,
+				AB000038 /* ToastView.swift in Sources */,
+				AB000039 /* BottomSheet.swift in Sources */,
+				AB000040 /* ConfirmDialog.swift in Sources */,
+				AB000041 /* LoadingOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

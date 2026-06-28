@@ -1,41 +1,28 @@
 import SwiftUI
 
 /// 全局主题系统 — 颜色、字体、圆角、间距、阴影统一管理
-/// 禁止在业务代码中硬编码任何样式值
+/// Task002 起，颜色全部委托至 AppColor，保持向后兼容
 enum Theme {
 
-    // MARK: - 颜色
+    // MARK: - 颜色（委托至 AppColor）
 
     enum Color {
-        /// 主品牌色
-        static let primary       = SwiftUI.Color("ColorPrimary")
-        /// 辅助色
-        static let secondary     = SwiftUI.Color("ColorSecondary")
-        /// 强调色（按钮、高亮）
-        static let accent        = SwiftUI.Color("ColorAccent")
+        static let primary       = AppColor.primary
+        static let secondary     = AppColor.secondary
+        static let accent        = AppColor.primary
 
-        /// 背景色（页面级）
-        static let background    = SwiftUI.Color("ColorBackground")
-        /// 卡片背景
-        static let surface       = SwiftUI.Color("ColorSurface")
-        /// 分割线 / 描边
-        static let separator     = SwiftUI.Color("ColorSeparator")
+        static let background    = AppColor.background
+        static let surface       = AppColor.surface
+        static let separator     = AppColor.divider
 
-        /// 主文字
-        static let textPrimary   = SwiftUI.Color("ColorTextPrimary")
-        /// 次要文字
-        static let textSecondary = SwiftUI.Color("ColorTextSecondary")
-        /// 占位文字
-        static let textTertiary  = SwiftUI.Color("ColorTextTertiary")
+        static let textPrimary   = AppColor.textPrimary
+        static let textSecondary = AppColor.textSecondary
+        static let textTertiary  = AppColor.textLight
 
-        /// 成功
-        static let success        = SwiftUI.Color("ColorSuccess")
-        /// 警告
-        static let warning        = SwiftUI.Color("ColorWarning")
-        /// 错误
-        static let error          = SwiftUI.Color("ColorError")
-        /// 信息
-        static let info           = SwiftUI.Color("ColorInfo")
+        static let success       = AppColor.success
+        static let warning       = AppColor.warning
+        static let error         = AppColor.error
+        static let info          = AppColor.info
     }
 
     // MARK: - 字体
