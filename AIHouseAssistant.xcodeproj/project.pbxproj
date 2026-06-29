@@ -62,6 +62,29 @@
 		AC000053 /* DashboardStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100053 /* DashboardStat.swift */; };
 		AC000054 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100054 /* MockData.swift */; };
 		AC000055 /* JSONDecoder+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100055 /* JSONDecoder+App.swift */; };
+		AD000001 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100001 /* HTTPMethod.swift */; };
+		AD000002 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100002 /* APIError.swift */; };
+		AD000003 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100003 /* APIResponse.swift */; };
+		AD000004 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100004 /* APIEndpoint.swift */; };
+		AD000005 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100005 /* TokenManager.swift */; };
+		AD000006 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100006 /* NetworkMonitor.swift */; };
+		AD000007 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100007 /* APIClient.swift */; };
+		AD000008 /* CustomerRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100008 /* CustomerRepositoryProtocol.swift */; };
+		AD000009 /* HouseRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100009 /* HouseRepositoryProtocol.swift */; };
+		AD000010 /* MatchRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100010 /* MatchRepositoryProtocol.swift */; };
+		AD000011 /* DashboardRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100011 /* DashboardRepositoryProtocol.swift */; };
+		AD000012 /* UserRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100012 /* UserRepositoryProtocol.swift */; };
+		AD000013 /* BaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100013 /* BaseRepository.swift */; };
+		AD000014 /* CustomerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100014 /* CustomerRepository.swift */; };
+		AD000015 /* MockCustomerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100015 /* MockCustomerRepository.swift */; };
+		AD000016 /* HouseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100016 /* HouseRepository.swift */; };
+		AD000017 /* MockHouseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100017 /* MockHouseRepository.swift */; };
+		AD000018 /* MatchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100018 /* MatchRepository.swift */; };
+		AD000019 /* MockMatchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100019 /* MockMatchRepository.swift */; };
+		AD000020 /* DashboardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100020 /* DashboardRepository.swift */; };
+		AD000021 /* MockDashboardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100021 /* MockDashboardRepository.swift */; };
+		AD000022 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100022 /* UserRepository.swift */; };
+		AD000023 /* MockUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100023 /* MockUserRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +143,29 @@
 		AC100053 /* DashboardStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DashboardStat.swift"; sourceTree = "<group>"; };
 		AC100054 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockData.swift"; sourceTree = "<group>"; };
 		AC100055 /* JSONDecoder+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+App.swift"; sourceTree = "<group>"; };
+		AD100001 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPMethod.swift"; sourceTree = "<group>"; };
+		AD100002 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIError.swift"; sourceTree = "<group>"; };
+		AD100003 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIResponse.swift"; sourceTree = "<group>"; };
+		AD100004 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIEndpoint.swift"; sourceTree = "<group>"; };
+		AD100005 /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TokenManager.swift"; sourceTree = "<group>"; };
+		AD100006 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkMonitor.swift"; sourceTree = "<group>"; };
+		AD100007 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient.swift"; sourceTree = "<group>"; };
+		AD100008 /* CustomerRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerRepositoryProtocol.swift"; sourceTree = "<group>"; };
+		AD100009 /* HouseRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseRepositoryProtocol.swift"; sourceTree = "<group>"; };
+		AD100010 /* MatchRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchRepositoryProtocol.swift"; sourceTree = "<group>"; };
+		AD100011 /* DashboardRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DashboardRepositoryProtocol.swift"; sourceTree = "<group>"; };
+		AD100012 /* UserRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserRepositoryProtocol.swift"; sourceTree = "<group>"; };
+		AD100013 /* BaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseRepository.swift"; sourceTree = "<group>"; };
+		AD100014 /* CustomerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerRepository.swift"; sourceTree = "<group>"; };
+		AD100015 /* MockCustomerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockCustomerRepository.swift"; sourceTree = "<group>"; };
+		AD100016 /* HouseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseRepository.swift"; sourceTree = "<group>"; };
+		AD100017 /* MockHouseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockHouseRepository.swift"; sourceTree = "<group>"; };
+		AD100018 /* MatchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchRepository.swift"; sourceTree = "<group>"; };
+		AD100019 /* MockMatchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockMatchRepository.swift"; sourceTree = "<group>"; };
+		AD100020 /* DashboardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DashboardRepository.swift"; sourceTree = "<group>"; };
+		AD100021 /* MockDashboardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockDashboardRepository.swift"; sourceTree = "<group>"; };
+		AD100022 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserRepository.swift"; sourceTree = "<group>"; };
+		AD100023 /* MockUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockUserRepository.swift"; sourceTree = "<group>"; };
 		AAPROD001 /* AIHouseAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AIHouseAssistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -157,6 +203,9 @@
 				AAGRP0020 /* Modules */,
 				ABGRP0001 /* Components */,
 				ACGRP0001 /* Models */,
+				ADGRP0001 /* Protocols */,
+				ADGRP0003 /* Services */,
+				ADGRP0005 /* Repositories */,
 			);
 			path = AIHouseAssistant;
 			sourceTree = "<group>";
@@ -207,6 +256,13 @@
 				AA100005 /* NetworkManager.swift */,
 				AA100006 /* NetworkError.swift */,
 				AA100007 /* APIEndpoints.swift */,
+				AD100001 /* HTTPMethod.swift */,
+				AD100002 /* APIError.swift */,
+				AD100003 /* APIResponse.swift */,
+				AD100004 /* APIEndpoint.swift */,
+				AD100005 /* TokenManager.swift */,
+				AD100006 /* NetworkMonitor.swift */,
+				AD100007 /* APIClient.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -459,6 +515,99 @@
 			path = Mock;
 			sourceTree = "<group>";
 		};
+		ADGRP0001 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				ADGRP0002 /* Repository */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		ADGRP0002 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				AD100008 /* CustomerRepositoryProtocol.swift */,
+				AD100009 /* HouseRepositoryProtocol.swift */,
+				AD100010 /* MatchRepositoryProtocol.swift */,
+				AD100011 /* DashboardRepositoryProtocol.swift */,
+				AD100012 /* UserRepositoryProtocol.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		ADGRP0003 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ADGRP0004 /* API */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ADGRP0004 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AD100013 /* BaseRepository.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		ADGRP0005 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				ADGRP0006 /* Customer */,
+				ADGRP0007 /* House */,
+				ADGRP0008 /* Match */,
+				ADGRP0009 /* Dashboard */,
+				ADGRP0010 /* User */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		ADGRP0006 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				AD100014 /* CustomerRepository.swift */,
+				AD100015 /* MockCustomerRepository.swift */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		ADGRP0007 /* House */ = {
+			isa = PBXGroup;
+			children = (
+				AD100016 /* HouseRepository.swift */,
+				AD100017 /* MockHouseRepository.swift */,
+			);
+			path = House;
+			sourceTree = "<group>";
+		};
+		ADGRP0008 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				AD100018 /* MatchRepository.swift */,
+				AD100019 /* MockMatchRepository.swift */,
+			);
+			path = Match;
+			sourceTree = "<group>";
+		};
+		ADGRP0009 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				AD100020 /* DashboardRepository.swift */,
+				AD100021 /* MockDashboardRepository.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		ADGRP0010 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				AD100022 /* UserRepository.swift */,
+				AD100023 /* MockUserRepository.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -580,6 +729,29 @@
 				AC000053 /* DashboardStat.swift in Sources */,
 				AC000054 /* MockData.swift in Sources */,
 				AC000055 /* JSONDecoder+App.swift in Sources */,
+				AD000001 /* HTTPMethod.swift in Sources */,
+				AD000002 /* APIError.swift in Sources */,
+				AD000003 /* APIResponse.swift in Sources */,
+				AD000004 /* APIEndpoint.swift in Sources */,
+				AD000005 /* TokenManager.swift in Sources */,
+				AD000006 /* NetworkMonitor.swift in Sources */,
+				AD000007 /* APIClient.swift in Sources */,
+				AD000008 /* CustomerRepositoryProtocol.swift in Sources */,
+				AD000009 /* HouseRepositoryProtocol.swift in Sources */,
+				AD000010 /* MatchRepositoryProtocol.swift in Sources */,
+				AD000011 /* DashboardRepositoryProtocol.swift in Sources */,
+				AD000012 /* UserRepositoryProtocol.swift in Sources */,
+				AD000013 /* BaseRepository.swift in Sources */,
+				AD000014 /* CustomerRepository.swift in Sources */,
+				AD000015 /* MockCustomerRepository.swift in Sources */,
+				AD000016 /* HouseRepository.swift in Sources */,
+				AD000017 /* MockHouseRepository.swift in Sources */,
+				AD000018 /* MatchRepository.swift in Sources */,
+				AD000019 /* MockMatchRepository.swift in Sources */,
+				AD000020 /* DashboardRepository.swift in Sources */,
+				AD000021 /* MockDashboardRepository.swift in Sources */,
+				AD000022 /* UserRepository.swift in Sources */,
+				AD000023 /* MockUserRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
