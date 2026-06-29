@@ -28,11 +28,13 @@ struct AppRouter {
                            subtitle: "客户 ID：\(customerId)")
 
         case .houseList:
-            ComingSoonView(title: "房源列表", icon: "building.2.fill")
+            HouseListView()
 
         case .houseDetail(let houseId):
-            ComingSoonView(title: "房源详情", icon: "house.lodge.fill",
-                           subtitle: "房源 ID：\(houseId)")
+            HouseDetailView(houseId: houseId)
+
+        case .houseEdit(let houseId):
+            HouseEditView(houseId: houseId)
 
         case .match(let customerId):
             ComingSoonView(title: "智能匹配", icon: "sparkles",

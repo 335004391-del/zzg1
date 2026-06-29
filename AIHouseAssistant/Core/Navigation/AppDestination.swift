@@ -17,6 +17,8 @@ enum AppDestination: Hashable {
     // MARK: - 房源
     case houseList
     case houseDetail(houseId: String)
+    /// 新增 / 编辑房源（nil = 新增，非 nil = 编辑）
+    case houseEdit(houseId: String?)
 
     // MARK: - AI
     case match(customerId: String)
@@ -40,6 +42,7 @@ enum AppDestination: Hashable {
         case .followRecord:     return "跟进记录"
         case .houseList:        return "房源列表"
         case .houseDetail:      return "房源详情"
+        case .houseEdit(let id): return id == nil ? "新增房源" : "编辑房源"
         case .match:            return "智能匹配"
         case .aiProfile:        return "AI 画像"
         case .aiReport:         return "AI 匹配报告"

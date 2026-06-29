@@ -123,6 +123,22 @@
 		AG000013 /* CustomerEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100013 /* CustomerEditViewModel.swift */; };
 		AG000014 /* CustomerEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100014 /* CustomerEditView.swift */; };
 		AG000015 /* CustomerTagSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100015 /* CustomerTagSelector.swift */; };
+		AH000001 /* HouseQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100001 /* HouseQuery.swift */; };
+		AH000002 /* MockHouseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100002 /* MockHouseFactory.swift */; };
+		AH000003 /* SeededGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100003 /* SeededGenerator.swift */; };
+		AH000004 /* HouseUIMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100004 /* HouseUIMapping.swift */; };
+		AH000005 /* HouseEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100005 /* HouseEvents.swift */; };
+		AH000006 /* HouseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100006 /* HouseListViewModel.swift */; };
+		AH000007 /* HouseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100007 /* HouseCard.swift */; };
+		AH000008 /* HouseFilterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100008 /* HouseFilterSheet.swift */; };
+		AH000009 /* HouseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100009 /* HouseListView.swift */; };
+		AH000010 /* HouseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100010 /* HouseDetailViewModel.swift */; };
+		AH000011 /* HouseImageCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100011 /* HouseImageCarousel.swift */; };
+		AH000012 /* HouseAIAnalysisCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100012 /* HouseAIAnalysisCard.swift */; };
+		AH000013 /* HouseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100013 /* HouseDetailView.swift */; };
+		AH000014 /* HouseEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100014 /* HouseEditViewModel.swift */; };
+		AH000015 /* HouseTagSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100015 /* HouseTagSelector.swift */; };
+		AH000016 /* HouseEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100016 /* HouseEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -242,6 +258,22 @@
 		AG100013 /* CustomerEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerEditViewModel.swift"; sourceTree = "<group>"; };
 		AG100014 /* CustomerEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerEditView.swift"; sourceTree = "<group>"; };
 		AG100015 /* CustomerTagSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerTagSelector.swift"; sourceTree = "<group>"; };
+		AH100001 /* HouseQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseQuery.swift"; sourceTree = "<group>"; };
+		AH100002 /* MockHouseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockHouseFactory.swift"; sourceTree = "<group>"; };
+		AH100003 /* SeededGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SeededGenerator.swift"; sourceTree = "<group>"; };
+		AH100004 /* HouseUIMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseUIMapping.swift"; sourceTree = "<group>"; };
+		AH100005 /* HouseEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseEvents.swift"; sourceTree = "<group>"; };
+		AH100006 /* HouseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseListViewModel.swift"; sourceTree = "<group>"; };
+		AH100007 /* HouseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseCard.swift"; sourceTree = "<group>"; };
+		AH100008 /* HouseFilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseFilterSheet.swift"; sourceTree = "<group>"; };
+		AH100009 /* HouseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseListView.swift"; sourceTree = "<group>"; };
+		AH100010 /* HouseDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseDetailViewModel.swift"; sourceTree = "<group>"; };
+		AH100011 /* HouseImageCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseImageCarousel.swift"; sourceTree = "<group>"; };
+		AH100012 /* HouseAIAnalysisCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseAIAnalysisCard.swift"; sourceTree = "<group>"; };
+		AH100013 /* HouseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseDetailView.swift"; sourceTree = "<group>"; };
+		AH100014 /* HouseEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseEditViewModel.swift"; sourceTree = "<group>"; };
+		AH100015 /* HouseTagSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseTagSelector.swift"; sourceTree = "<group>"; };
+		AH100016 /* HouseEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseEditView.swift"; sourceTree = "<group>"; };
 		AAPROD001 /* AIHouseAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AIHouseAssistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -409,8 +441,53 @@
 				AAGRP0021 /* Dashboard */,
 				AEGRP0002 /* Common */,
 				AGGRP0001 /* Customer */,
+				AHGRP0001 /* House */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		AHGRP0001 /* House */ = {
+			isa = PBXGroup;
+			children = (
+				AH100004 /* HouseUIMapping.swift */,
+				AH100005 /* HouseEvents.swift */,
+				AHGRP0002 /* List */,
+				AHGRP0003 /* Detail */,
+				AHGRP0004 /* Edit */,
+			);
+			path = House;
+			sourceTree = "<group>";
+		};
+		AHGRP0002 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				AH100006 /* HouseListViewModel.swift */,
+				AH100007 /* HouseCard.swift */,
+				AH100008 /* HouseFilterSheet.swift */,
+				AH100009 /* HouseListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		AHGRP0003 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				AH100010 /* HouseDetailViewModel.swift */,
+				AH100011 /* HouseImageCarousel.swift */,
+				AH100012 /* HouseAIAnalysisCard.swift */,
+				AH100013 /* HouseDetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		AHGRP0004 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				AH100014 /* HouseEditViewModel.swift */,
+				AH100015 /* HouseTagSelector.swift */,
+				AH100016 /* HouseEditView.swift */,
+			);
+			path = Edit;
 			sourceTree = "<group>";
 		};
 		AGGRP0001 /* Customer */ = {
@@ -631,6 +708,7 @@
 			children = (
 				AC100048 /* House.swift */,
 				AC100047 /* HouseTag.swift */,
+				AH100001 /* HouseQuery.swift */,
 			);
 			path = House;
 			sourceTree = "<group>";
@@ -681,6 +759,8 @@
 			children = (
 				AC100054 /* MockData.swift */,
 				AG100002 /* MockCustomerFactory.swift */,
+				AH100002 /* MockHouseFactory.swift */,
+				AH100003 /* SeededGenerator.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -960,6 +1040,22 @@
 				AG000013 /* CustomerEditViewModel.swift in Sources */,
 				AG000014 /* CustomerEditView.swift in Sources */,
 				AG000015 /* CustomerTagSelector.swift in Sources */,
+				AH000001 /* HouseQuery.swift in Sources */,
+				AH000002 /* MockHouseFactory.swift in Sources */,
+				AH000003 /* SeededGenerator.swift in Sources */,
+				AH000004 /* HouseUIMapping.swift in Sources */,
+				AH000005 /* HouseEvents.swift in Sources */,
+				AH000006 /* HouseListViewModel.swift in Sources */,
+				AH000007 /* HouseCard.swift in Sources */,
+				AH000008 /* HouseFilterSheet.swift in Sources */,
+				AH000009 /* HouseListView.swift in Sources */,
+				AH000010 /* HouseDetailViewModel.swift in Sources */,
+				AH000011 /* HouseImageCarousel.swift in Sources */,
+				AH000012 /* HouseAIAnalysisCard.swift in Sources */,
+				AH000013 /* HouseDetailView.swift in Sources */,
+				AH000014 /* HouseEditViewModel.swift in Sources */,
+				AH000015 /* HouseTagSelector.swift in Sources */,
+				AH000016 /* HouseEditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -89,10 +89,36 @@ struct House: Codable, Identifiable, Hashable {
     /// 最后更新时间
     var updatedAt: Date
 
+    // MARK: - CRM 状态（房源管理模块）
+
+    /// 是否收藏
+    var isFavorite: Bool = false
+    /// AI 推荐度（0~100，预留排序用）
+    var aiRecommendScore: Int = 0
+    /// 产权年限（年）
+    var ownershipYears: Int = 70
+
     // MARK: - 计算属性
 
     /// 总价格式化（如"285万"）
     var priceDescription: String { "\(Int(price)) 万" }
+
+    /// 产权描述（如"70 年产权"）
+    var ownershipDescription: String { "\(ownershipYears) 年产权" }
+
+    /// 封面占位配色种子（无真实图片时用于生成稳定渐变）
+    var coverSeed: Int { abs(id.hashValue) }
+
+    /// 更新时间描述（如"3 天前"）
+    var updatedDescription: String {
+        let days = Calendar.current.dateComponents([.day], from: updatedAt, to: Date()).day ?? 0
+        switch days {
+        case ..<1:   return "今天更新"
+        case 1:      return "昨天更新"
+        case 2...30: return "\(days) 天前更新"
+        default:     return "\(days / 30) 个月前更新"
+        }
+    }
 
     /// 单价格式化（如"42,000元/㎡"）
     var unitPriceDescription: String {

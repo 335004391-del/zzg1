@@ -11,6 +11,27 @@ final class HouseRepository: HouseRepositoryProtocol, BaseRepository {
         self.apiClient = apiClient
     }
 
+    // MARK: - 房源查询与收藏
+
+    func query(_ query: HouseQuery) async throws -> PageResponse<House> {
+        let page = PageRequest(
+            page:     query.page,
+            pageSize: query.pageSize,
+            keyword:  query.keyword.isEmpty ? nil : query.keyword,
+            sortBy:   query.sort.rawValue,
+            ascending: query.sort == .priceAsc || query.sort == .areaAsc
+        )
+        return try await fetch(AppEndpoint.House.list(page))
+    }
+
+    func toggleFavorite(id: String) async throws -> House {
+        let endpoint = BodyEndpoint(
+            path: AppEndpoint.House.update(id: id).path + "/favorite",
+            method: .put
+        )
+        return try await fetch(endpoint)
+    }
+
     // MARK: - 房源列表与详情
 
     func list(page: PageRequest) async throws -> PageResponse<House> {
