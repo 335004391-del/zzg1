@@ -197,7 +197,7 @@ actor MockCustomerRepository: CustomerRepositoryProtocol {
     private func generateFollows(for customerId: String) -> [FollowRecord] {
         let count = Int(abs(customerId.hashValue) % 4) // 0~3
         guard count > 0 else { return [] }
-        let types: [FollowType] = [.phone, .wechat, .visit, .带看, .negotiate]
+        let types: [FollowType] = [.phone, .wechat, .visit, .houseView, .negotiate]
         let contents = [
             "电话沟通，客户对当前房源较满意，预算可接受。",
             "微信发送了 3 套房源资料，客户表示周末有空看房。",

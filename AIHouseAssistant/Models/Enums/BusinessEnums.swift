@@ -95,7 +95,7 @@ enum FollowType: String, Codable, CaseIterable, Hashable {
     case phone     = "phone"     // 电话
     case wechat    = "wechat"    // 微信
     case visit     = "visit"     // 上门拜访
-    case带看      = "house_view" // 带看房源
+    case houseView = "house_view" // 带看房源
     case negotiate = "negotiate" // 谈判
     case sign      = "sign"      // 签约
     case other     = "other"     // 其他
@@ -105,7 +105,7 @@ enum FollowType: String, Codable, CaseIterable, Hashable {
         case .phone:     return "电话跟进"
         case .wechat:    return "微信沟通"
         case .visit:     return "上门拜访"
-        case .带看:      return "带看房源"
+        case .houseView: return "带看房源"
         case .negotiate: return "价格谈判"
         case .sign:      return "签约确认"
         case .other:     return "其他"
@@ -117,7 +117,7 @@ enum FollowType: String, Codable, CaseIterable, Hashable {
         case .phone:     return "phone.fill"
         case .wechat:    return "message.fill"
         case .visit:     return "figure.walk"
-        case .带看:      return "house.fill"
+        case .houseView: return "house.fill"
         case .negotiate: return "briefcase.fill"
         case .sign:      return "signature"
         case .other:     return "ellipsis.circle.fill"
