@@ -25,6 +25,10 @@ enum AppDestination: Hashable {
     case aiProfile(customerId: String)
     case aiReport(matchId: String)
 
+    // MARK: - 数据导入
+    case importHome
+    case importFlow(type: ImportType)
+
     // MARK: - 系统
     case settings
     case profile
@@ -46,6 +50,8 @@ enum AppDestination: Hashable {
         case .match:            return "智能匹配"
         case .aiProfile:        return "AI 画像"
         case .aiReport:         return "AI 匹配报告"
+        case .importHome:       return "数据导入"
+        case .importFlow(let type): return "导入\(type.displayName)"
         case .settings:         return "设置"
         case .profile:          return "我的"
         case .login:            return "登录"

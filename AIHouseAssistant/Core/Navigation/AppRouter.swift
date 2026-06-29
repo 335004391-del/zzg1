@@ -48,6 +48,12 @@ struct AppRouter {
             ComingSoonView(title: "AI 匹配报告", icon: "doc.text.magnifyingglass",
                            subtitle: "匹配 ID：\(matchId)")
 
+        case .importHome:
+            ImportHomeView()
+
+        case .importFlow(let type):
+            ImportFlowView(type: type)
+
         case .settings:
             ComingSoonView(title: "设置", icon: "gearshape.fill")
 

@@ -38,6 +38,9 @@ final class DependencyContainer: ObservableObject {
     /// 用户仓储
     let userRepository: any UserRepositoryProtocol
 
+    /// 导入仓储
+    let importRepository: any ImportRepositoryProtocol
+
     // MARK: - 初始化
 
     private init() {
@@ -52,6 +55,7 @@ final class DependencyContainer: ObservableObject {
         self.matchRepository     = MockMatchRepository()
         self.dashboardRepository = MockDashboardRepository()
         self.userRepository      = MockUserRepository()
+        self.importRepository    = MockImportRepository()
         #else
         let api = APIClient.shared
         self.customerRepository  = CustomerRepository(apiClient: api)
@@ -59,6 +63,7 @@ final class DependencyContainer: ObservableObject {
         self.matchRepository     = MatchRepository(apiClient: api)
         self.dashboardRepository = DashboardRepository(apiClient: api)
         self.userRepository      = UserRepository(apiClient: api)
+        self.importRepository    = ImportRepository()
         #endif
 
         AppLogger.info("依赖容器初始化完成（\(isDebug ? "Debug/Mock" : "Release/API")）", category: .general)

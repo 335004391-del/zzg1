@@ -116,8 +116,8 @@ struct DashboardView: View {
         case .house:       nav.selectTab(.house)
         case .match:       nav.selectTab(.ai)
         case .settings:    nav.push(.settings)
+        case .excelImport: nav.push(.importHome)
         // 以下功能页面尚未开发，先以 Toast 占位
-        case .excelImport: ToastManager.shared.info("Excel 导入：敬请期待")
         case .todo:        ToastManager.shared.info("今日待办：敬请期待")
         case .ranking:     ToastManager.shared.info("销售排行：敬请期待")
         case .bossView:    ToastManager.shared.info("老板驾驶舱：敬请期待")

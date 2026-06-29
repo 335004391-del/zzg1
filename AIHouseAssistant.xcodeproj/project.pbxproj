@@ -139,6 +139,23 @@
 		AH000014 /* HouseEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100014 /* HouseEditViewModel.swift */; };
 		AH000015 /* HouseTagSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100015 /* HouseTagSelector.swift */; };
 		AH000016 /* HouseEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AH100016 /* HouseEditView.swift */; };
+		AI000001 /* ImportModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100001 /* ImportModels.swift */; };
+		AI000002 /* MockImportFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100002 /* MockImportFactory.swift */; };
+		AI000003 /* ImportRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100003 /* ImportRepositoryProtocol.swift */; };
+		AI000004 /* ImportRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100004 /* ImportRepository.swift */; };
+		AI000005 /* MockImportRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100005 /* MockImportRepository.swift */; };
+		AI000006 /* ImportEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100006 /* ImportEvents.swift */; };
+		AI000007 /* ImportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100007 /* ImportViewModel.swift */; };
+		AI000008 /* ImportHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100008 /* ImportHomeView.swift */; };
+		AI000009 /* ImportComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100009 /* ImportComponents.swift */; };
+		AI000010 /* ImportFlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100010 /* ImportFlowViewModel.swift */; };
+		AI000011 /* CustomerImportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100011 /* CustomerImportViewModel.swift */; };
+		AI000012 /* HouseImportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100012 /* HouseImportViewModel.swift */; };
+		AI000013 /* ImportFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100013 /* ImportFlowView.swift */; };
+		AI000014 /* FileSelectStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100014 /* FileSelectStepView.swift */; };
+		AI000015 /* FieldMappingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100015 /* FieldMappingView.swift */; };
+		AI000016 /* ImportPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100016 /* ImportPreviewView.swift */; };
+		AI000017 /* ImportResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100017 /* ImportResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -274,6 +291,23 @@
 		AH100014 /* HouseEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseEditViewModel.swift"; sourceTree = "<group>"; };
 		AH100015 /* HouseTagSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseTagSelector.swift"; sourceTree = "<group>"; };
 		AH100016 /* HouseEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseEditView.swift"; sourceTree = "<group>"; };
+		AI100001 /* ImportModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImportModels.swift"; sourceTree = "<group>"; };
+		AI100002 /* MockImportFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockImportFactory.swift"; sourceTree = "<group>"; };
+		AI100003 /* ImportRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImportRepositoryProtocol.swift"; sourceTree = "<group>"; };
+		AI100004 /* ImportRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImportRepository.swift"; sourceTree = "<group>"; };
+		AI100005 /* MockImportRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockImportRepository.swift"; sourceTree = "<group>"; };
+		AI100006 /* ImportEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImportEvents.swift"; sourceTree = "<group>"; };
+		AI100007 /* ImportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImportViewModel.swift"; sourceTree = "<group>"; };
+		AI100008 /* ImportHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImportHomeView.swift"; sourceTree = "<group>"; };
+		AI100009 /* ImportComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImportComponents.swift"; sourceTree = "<group>"; };
+		AI100010 /* ImportFlowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImportFlowViewModel.swift"; sourceTree = "<group>"; };
+		AI100011 /* CustomerImportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerImportViewModel.swift"; sourceTree = "<group>"; };
+		AI100012 /* HouseImportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseImportViewModel.swift"; sourceTree = "<group>"; };
+		AI100013 /* ImportFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImportFlowView.swift"; sourceTree = "<group>"; };
+		AI100014 /* FileSelectStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileSelectStepView.swift"; sourceTree = "<group>"; };
+		AI100015 /* FieldMappingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FieldMappingView.swift"; sourceTree = "<group>"; };
+		AI100016 /* ImportPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImportPreviewView.swift"; sourceTree = "<group>"; };
+		AI100017 /* ImportResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImportResultView.swift"; sourceTree = "<group>"; };
 		AAPROD001 /* AIHouseAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AIHouseAssistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -442,8 +476,36 @@
 				AEGRP0002 /* Common */,
 				AGGRP0001 /* Customer */,
 				AHGRP0001 /* House */,
+				AIGRP0001 /* Import */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		AIGRP0001 /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				AI100006 /* ImportEvents.swift */,
+				AI100007 /* ImportViewModel.swift */,
+				AI100008 /* ImportHomeView.swift */,
+				AI100009 /* ImportComponents.swift */,
+				AI100010 /* ImportFlowViewModel.swift */,
+				AI100011 /* CustomerImportViewModel.swift */,
+				AI100012 /* HouseImportViewModel.swift */,
+				AI100013 /* ImportFlowView.swift */,
+				AIGRP0002 /* Steps */,
+			);
+			path = Import;
+			sourceTree = "<group>";
+		};
+		AIGRP0002 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				AI100014 /* FileSelectStepView.swift */,
+				AI100015 /* FieldMappingView.swift */,
+				AI100016 /* ImportPreviewView.swift */,
+				AI100017 /* ImportResultView.swift */,
+			);
+			path = Steps;
 			sourceTree = "<group>";
 		};
 		AHGRP0001 /* House */ = {
@@ -678,9 +740,19 @@
 				ACGRP0008 /* User */,
 				ACGRP0009 /* Dashboard */,
 				ACGRP0010 /* Mock */,
+				AIGRP0030 /* Import */,
 				AC100055 /* JSONDecoder+App.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		AIGRP0030 /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				AI100001 /* ImportModels.swift */,
+				AI100002 /* MockImportFactory.swift */,
+			);
+			path = Import;
 			sourceTree = "<group>";
 		};
 		ACGRP0002 /* Enums */ = {
@@ -781,6 +853,7 @@
 				AD100010 /* MatchRepositoryProtocol.swift */,
 				AD100011 /* DashboardRepositoryProtocol.swift */,
 				AD100012 /* UserRepositoryProtocol.swift */,
+				AI100003 /* ImportRepositoryProtocol.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -809,8 +882,18 @@
 				ADGRP0008 /* Match */,
 				ADGRP0009 /* Dashboard */,
 				ADGRP0010 /* User */,
+				AIGRP0031 /* Import */,
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		AIGRP0031 /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				AI100004 /* ImportRepository.swift */,
+				AI100005 /* MockImportRepository.swift */,
+			);
+			path = Import;
 			sourceTree = "<group>";
 		};
 		ADGRP0006 /* Customer */ = {
@@ -1056,6 +1139,23 @@
 				AH000014 /* HouseEditViewModel.swift in Sources */,
 				AH000015 /* HouseTagSelector.swift in Sources */,
 				AH000016 /* HouseEditView.swift in Sources */,
+				AI000001 /* ImportModels.swift in Sources */,
+				AI000002 /* MockImportFactory.swift in Sources */,
+				AI000003 /* ImportRepositoryProtocol.swift in Sources */,
+				AI000004 /* ImportRepository.swift in Sources */,
+				AI000005 /* MockImportRepository.swift in Sources */,
+				AI000006 /* ImportEvents.swift in Sources */,
+				AI000007 /* ImportViewModel.swift in Sources */,
+				AI000008 /* ImportHomeView.swift in Sources */,
+				AI000009 /* ImportComponents.swift in Sources */,
+				AI000010 /* ImportFlowViewModel.swift in Sources */,
+				AI000011 /* CustomerImportViewModel.swift in Sources */,
+				AI000012 /* HouseImportViewModel.swift in Sources */,
+				AI000013 /* ImportFlowView.swift in Sources */,
+				AI000014 /* FileSelectStepView.swift in Sources */,
+				AI000015 /* FieldMappingView.swift in Sources */,
+				AI000016 /* ImportPreviewView.swift in Sources */,
+				AI000017 /* ImportResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
