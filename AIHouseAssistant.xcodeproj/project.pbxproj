@@ -85,6 +85,16 @@
 		AD000021 /* MockDashboardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100021 /* MockDashboardRepository.swift */; };
 		AD000022 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100022 /* UserRepository.swift */; };
 		AD000023 /* MockUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD100023 /* MockUserRepository.swift */; };
+		AE000001 /* AppDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE100001 /* AppDestination.swift */; };
+		AE000002 /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE100002 /* AppRoute.swift */; };
+		AE000003 /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE100003 /* NavigationManager.swift */; };
+		AE000004 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE100004 /* AppRouter.swift */; };
+		AE000005 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE100005 /* NavigationCoordinator.swift */; };
+		AE000006 /* ModalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE100006 /* ModalManager.swift */; };
+		AE000007 /* SheetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE100007 /* SheetManager.swift */; };
+		AE000008 /* DeepLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE100008 /* DeepLinkManager.swift */; };
+		AE000009 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE100009 /* MainTabView.swift */; };
+		AE000010 /* ComingSoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE100010 /* ComingSoonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -166,6 +176,16 @@
 		AD100021 /* MockDashboardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockDashboardRepository.swift"; sourceTree = "<group>"; };
 		AD100022 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserRepository.swift"; sourceTree = "<group>"; };
 		AD100023 /* MockUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockUserRepository.swift"; sourceTree = "<group>"; };
+		AE100001 /* AppDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDestination.swift"; sourceTree = "<group>"; };
+		AE100002 /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppRoute.swift"; sourceTree = "<group>"; };
+		AE100003 /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationManager.swift"; sourceTree = "<group>"; };
+		AE100004 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppRouter.swift"; sourceTree = "<group>"; };
+		AE100005 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationCoordinator.swift"; sourceTree = "<group>"; };
+		AE100006 /* ModalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModalManager.swift"; sourceTree = "<group>"; };
+		AE100007 /* SheetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SheetManager.swift"; sourceTree = "<group>"; };
+		AE100008 /* DeepLinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeepLinkManager.swift"; sourceTree = "<group>"; };
+		AE100009 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainTabView.swift"; sourceTree = "<group>"; };
+		AE100010 /* ComingSoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ComingSoonView.swift"; sourceTree = "<group>"; };
 		AAPROD001 /* AIHouseAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AIHouseAssistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -215,6 +235,7 @@
 			children = (
 				AA100001 /* AIHouseAssistantApp.swift */,
 				AA100002 /* RootView.swift */,
+				AE100009 /* MainTabView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -230,8 +251,24 @@
 				AAGRP0016 /* Constants */,
 				AAGRP0017 /* Utilities */,
 				AAGRP0018 /* Extensions */,
+				AEGRP0001 /* Navigation */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		AEGRP0001 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				AE100001 /* AppDestination.swift */,
+				AE100002 /* AppRoute.swift */,
+				AE100003 /* NavigationManager.swift */,
+				AE100004 /* AppRouter.swift */,
+				AE100005 /* NavigationCoordinator.swift */,
+				AE100006 /* ModalManager.swift */,
+				AE100007 /* SheetManager.swift */,
+				AE100008 /* DeepLinkManager.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		AAGRP0011 /* Config */ = {
@@ -314,8 +351,17 @@
 			isa = PBXGroup;
 			children = (
 				AAGRP0021 /* Dashboard */,
+				AEGRP0002 /* Common */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		AEGRP0002 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AE100010 /* ComingSoonView.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		AAGRP0021 /* Dashboard */ = {
@@ -752,6 +798,16 @@
 				AD000021 /* MockDashboardRepository.swift in Sources */,
 				AD000022 /* UserRepository.swift in Sources */,
 				AD000023 /* MockUserRepository.swift in Sources */,
+				AE000001 /* AppDestination.swift in Sources */,
+				AE000002 /* AppRoute.swift in Sources */,
+				AE000003 /* NavigationManager.swift in Sources */,
+				AE000004 /* AppRouter.swift in Sources */,
+				AE000005 /* NavigationCoordinator.swift in Sources */,
+				AE000006 /* ModalManager.swift in Sources */,
+				AE000007 /* SheetManager.swift in Sources */,
+				AE000008 /* DeepLinkManager.swift in Sources */,
+				AE000009 /* MainTabView.swift in Sources */,
+				AE000010 /* ComingSoonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
