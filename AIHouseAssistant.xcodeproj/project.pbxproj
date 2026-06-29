@@ -48,6 +48,20 @@
 		AB000039 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100039 /* BottomSheet.swift */; };
 		AB000040 /* ConfirmDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100040 /* ConfirmDialog.swift */; };
 		AB000041 /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB100041 /* LoadingOverlay.swift */; };
+		AC000042 /* PersonEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100042 /* PersonEnums.swift */; };
+		AC000043 /* PropertyEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100043 /* PropertyEnums.swift */; };
+		AC000044 /* BusinessEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100044 /* BusinessEnums.swift */; };
+		AC000045 /* CustomerTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100045 /* CustomerTag.swift */; };
+		AC000046 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100046 /* Customer.swift */; };
+		AC000047 /* HouseTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100047 /* HouseTag.swift */; };
+		AC000048 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100048 /* House.swift */; };
+		AC000049 /* MatchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100049 /* MatchResult.swift */; };
+		AC000050 /* AIProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100050 /* AIProfile.swift */; };
+		AC000051 /* FollowRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100051 /* FollowRecord.swift */; };
+		AC000052 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100052 /* User.swift */; };
+		AC000053 /* DashboardStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100053 /* DashboardStat.swift */; };
+		AC000054 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100054 /* MockData.swift */; };
+		AC000055 /* JSONDecoder+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC100055 /* JSONDecoder+App.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +106,20 @@
 		AB100039 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BottomSheet.swift"; sourceTree = "<group>"; };
 		AB100040 /* ConfirmDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConfirmDialog.swift"; sourceTree = "<group>"; };
 		AB100041 /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoadingOverlay.swift"; sourceTree = "<group>"; };
+		AC100042 /* PersonEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonEnums.swift"; sourceTree = "<group>"; };
+		AC100043 /* PropertyEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PropertyEnums.swift"; sourceTree = "<group>"; };
+		AC100044 /* BusinessEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BusinessEnums.swift"; sourceTree = "<group>"; };
+		AC100045 /* CustomerTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerTag.swift"; sourceTree = "<group>"; };
+		AC100046 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customer.swift"; sourceTree = "<group>"; };
+		AC100047 /* HouseTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HouseTag.swift"; sourceTree = "<group>"; };
+		AC100048 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "House.swift"; sourceTree = "<group>"; };
+		AC100049 /* MatchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchResult.swift"; sourceTree = "<group>"; };
+		AC100050 /* AIProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AIProfile.swift"; sourceTree = "<group>"; };
+		AC100051 /* FollowRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FollowRecord.swift"; sourceTree = "<group>"; };
+		AC100052 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User.swift"; sourceTree = "<group>"; };
+		AC100053 /* DashboardStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DashboardStat.swift"; sourceTree = "<group>"; };
+		AC100054 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockData.swift"; sourceTree = "<group>"; };
+		AC100055 /* JSONDecoder+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+App.swift"; sourceTree = "<group>"; };
 		AAPROD001 /* AIHouseAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AIHouseAssistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -128,6 +156,7 @@
 				AAGRP0010 /* Core */,
 				AAGRP0020 /* Modules */,
 				ABGRP0001 /* Components */,
+				ACGRP0001 /* Models */,
 			);
 			path = AIHouseAssistant;
 			sourceTree = "<group>";
@@ -337,6 +366,99 @@
 			path = Overlays;
 			sourceTree = "<group>";
 		};
+		ACGRP0001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACGRP0002 /* Enums */,
+				ACGRP0003 /* Customer */,
+				ACGRP0004 /* House */,
+				ACGRP0005 /* Match */,
+				ACGRP0006 /* AI */,
+				ACGRP0007 /* Follow */,
+				ACGRP0008 /* User */,
+				ACGRP0009 /* Dashboard */,
+				ACGRP0010 /* Mock */,
+				AC100055 /* JSONDecoder+App.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ACGRP0002 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				AC100042 /* PersonEnums.swift */,
+				AC100043 /* PropertyEnums.swift */,
+				AC100044 /* BusinessEnums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		ACGRP0003 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				AC100046 /* Customer.swift */,
+				AC100045 /* CustomerTag.swift */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		ACGRP0004 /* House */ = {
+			isa = PBXGroup;
+			children = (
+				AC100048 /* House.swift */,
+				AC100047 /* HouseTag.swift */,
+			);
+			path = House;
+			sourceTree = "<group>";
+		};
+		ACGRP0005 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				AC100049 /* MatchResult.swift */,
+			);
+			path = Match;
+			sourceTree = "<group>";
+		};
+		ACGRP0006 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				AC100050 /* AIProfile.swift */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		ACGRP0007 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				AC100051 /* FollowRecord.swift */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		ACGRP0008 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				AC100052 /* User.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		ACGRP0009 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				AC100053 /* DashboardStat.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		ACGRP0010 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				AC100054 /* MockData.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -444,6 +566,20 @@
 				AB000039 /* BottomSheet.swift in Sources */,
 				AB000040 /* ConfirmDialog.swift in Sources */,
 				AB000041 /* LoadingOverlay.swift in Sources */,
+				AC000042 /* PersonEnums.swift in Sources */,
+				AC000043 /* PropertyEnums.swift in Sources */,
+				AC000044 /* BusinessEnums.swift in Sources */,
+				AC000045 /* CustomerTag.swift in Sources */,
+				AC000046 /* Customer.swift in Sources */,
+				AC000047 /* HouseTag.swift in Sources */,
+				AC000048 /* House.swift in Sources */,
+				AC000049 /* MatchResult.swift in Sources */,
+				AC000050 /* AIProfile.swift in Sources */,
+				AC000051 /* FollowRecord.swift in Sources */,
+				AC000052 /* User.swift in Sources */,
+				AC000053 /* DashboardStat.swift in Sources */,
+				AC000054 /* MockData.swift in Sources */,
+				AC000055 /* JSONDecoder+App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
