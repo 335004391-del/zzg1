@@ -156,6 +156,20 @@
 		AI000015 /* FieldMappingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100015 /* FieldMappingView.swift */; };
 		AI000016 /* ImportPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100016 /* ImportPreviewView.swift */; };
 		AI000017 /* ImportResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AI100017 /* ImportResultView.swift */; };
+		AJ000001 /* MatchEngineModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AJ100001 /* MatchEngineModels.swift */; };
+		AJ000002 /* RuleEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AJ100002 /* RuleEngine.swift */; };
+		AJ000003 /* ScoringEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AJ100003 /* ScoringEngine.swift */; };
+		AJ000004 /* RecommendationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AJ100004 /* RecommendationEngine.swift */; };
+		AJ000005 /* MatchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AJ100005 /* MatchEngine.swift */; };
+		AJ000006 /* AIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AJ100006 /* AIServiceProtocol.swift */; };
+		AJ000007 /* MatchUIMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = AJ100007 /* MatchUIMapping.swift */; };
+		AJ000008 /* MatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AJ100008 /* MatchViewModel.swift */; };
+		AJ000009 /* CustomerPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AJ100009 /* CustomerPickerSheet.swift */; };
+		AJ000010 /* MatchRecommendationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AJ100010 /* MatchRecommendationCard.swift */; };
+		AJ000011 /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AJ100011 /* MatchView.swift */; };
+		AJ000012 /* ScoreBreakdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AJ100012 /* ScoreBreakdownView.swift */; };
+		AJ000013 /* MatchDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AJ100013 /* MatchDetailViewModel.swift */; };
+		AJ000014 /* MatchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AJ100014 /* MatchDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -308,6 +322,20 @@
 		AI100015 /* FieldMappingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FieldMappingView.swift"; sourceTree = "<group>"; };
 		AI100016 /* ImportPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImportPreviewView.swift"; sourceTree = "<group>"; };
 		AI100017 /* ImportResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImportResultView.swift"; sourceTree = "<group>"; };
+		AJ100001 /* MatchEngineModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchEngineModels.swift"; sourceTree = "<group>"; };
+		AJ100002 /* RuleEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RuleEngine.swift"; sourceTree = "<group>"; };
+		AJ100003 /* ScoringEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScoringEngine.swift"; sourceTree = "<group>"; };
+		AJ100004 /* RecommendationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecommendationEngine.swift"; sourceTree = "<group>"; };
+		AJ100005 /* MatchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchEngine.swift"; sourceTree = "<group>"; };
+		AJ100006 /* AIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AIServiceProtocol.swift"; sourceTree = "<group>"; };
+		AJ100007 /* MatchUIMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchUIMapping.swift"; sourceTree = "<group>"; };
+		AJ100008 /* MatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchViewModel.swift"; sourceTree = "<group>"; };
+		AJ100009 /* CustomerPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerPickerSheet.swift"; sourceTree = "<group>"; };
+		AJ100010 /* MatchRecommendationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchRecommendationCard.swift"; sourceTree = "<group>"; };
+		AJ100011 /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchView.swift"; sourceTree = "<group>"; };
+		AJ100012 /* ScoreBreakdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScoreBreakdownView.swift"; sourceTree = "<group>"; };
+		AJ100013 /* MatchDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchDetailViewModel.swift"; sourceTree = "<group>"; };
+		AJ100014 /* MatchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchDetailView.swift"; sourceTree = "<group>"; };
 		AAPROD001 /* AIHouseAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AIHouseAssistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -342,6 +370,7 @@
 			children = (
 				AAGRP0002 /* App */,
 				AAGRP0010 /* Core */,
+				AJGRP0001 /* Engine */,
 				AAGRP0020 /* Modules */,
 				ABGRP0001 /* Components */,
 				ACGRP0001 /* Models */,
@@ -350,6 +379,26 @@
 				ADGRP0005 /* Repositories */,
 			);
 			path = AIHouseAssistant;
+			sourceTree = "<group>";
+		};
+		AJGRP0001 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				AJGRP0002 /* Match */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		AJGRP0002 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				AJ100005 /* MatchEngine.swift */,
+				AJ100002 /* RuleEngine.swift */,
+				AJ100003 /* ScoringEngine.swift */,
+				AJ100004 /* RecommendationEngine.swift */,
+				AJ100006 /* AIServiceProtocol.swift */,
+			);
+			path = Match;
 			sourceTree = "<group>";
 		};
 		AAGRP0002 /* App */ = {
@@ -477,8 +526,24 @@
 				AGGRP0001 /* Customer */,
 				AHGRP0001 /* House */,
 				AIGRP0001 /* Import */,
+				AJGRP0010 /* Match */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		AJGRP0010 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				AJ100007 /* MatchUIMapping.swift */,
+				AJ100008 /* MatchViewModel.swift */,
+				AJ100011 /* MatchView.swift */,
+				AJ100010 /* MatchRecommendationCard.swift */,
+				AJ100009 /* CustomerPickerSheet.swift */,
+				AJ100012 /* ScoreBreakdownView.swift */,
+				AJ100013 /* MatchDetailViewModel.swift */,
+				AJ100014 /* MatchDetailView.swift */,
+			);
+			path = Match;
 			sourceTree = "<group>";
 		};
 		AIGRP0001 /* Import */ = {
@@ -789,6 +854,7 @@
 			isa = PBXGroup;
 			children = (
 				AC100049 /* MatchResult.swift */,
+				AJ100001 /* MatchEngineModels.swift */,
 			);
 			path = Match;
 			sourceTree = "<group>";
@@ -1156,6 +1222,20 @@
 				AI000015 /* FieldMappingView.swift in Sources */,
 				AI000016 /* ImportPreviewView.swift in Sources */,
 				AI000017 /* ImportResultView.swift in Sources */,
+				AJ000001 /* MatchEngineModels.swift in Sources */,
+				AJ000002 /* RuleEngine.swift in Sources */,
+				AJ000003 /* ScoringEngine.swift in Sources */,
+				AJ000004 /* RecommendationEngine.swift in Sources */,
+				AJ000005 /* MatchEngine.swift in Sources */,
+				AJ000006 /* AIServiceProtocol.swift in Sources */,
+				AJ000007 /* MatchUIMapping.swift in Sources */,
+				AJ000008 /* MatchViewModel.swift in Sources */,
+				AJ000009 /* CustomerPickerSheet.swift in Sources */,
+				AJ000010 /* MatchRecommendationCard.swift in Sources */,
+				AJ000011 /* MatchView.swift in Sources */,
+				AJ000012 /* ScoreBreakdownView.swift in Sources */,
+				AJ000013 /* MatchDetailViewModel.swift in Sources */,
+				AJ000014 /* MatchDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

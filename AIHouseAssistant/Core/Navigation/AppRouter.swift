@@ -37,8 +37,10 @@ struct AppRouter {
             HouseEditView(houseId: houseId)
 
         case .match(let customerId):
-            ComingSoonView(title: "智能匹配", icon: "sparkles",
-                           subtitle: customerId.isEmpty ? nil : "客户 ID：\(customerId)")
+            MatchView(preselectedCustomerId: customerId.isEmpty ? nil : customerId)
+
+        case .matchDetail(let customerId, let houseId):
+            MatchDetailView(customerId: customerId, houseId: houseId)
 
         case .aiProfile(let customerId):
             ComingSoonView(title: "AI 画像", icon: "brain.head.profile.fill",

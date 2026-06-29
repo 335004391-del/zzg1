@@ -22,6 +22,8 @@ enum AppDestination: Hashable {
 
     // MARK: - AI
     case match(customerId: String)
+    /// 匹配推荐详情（客户 × 房源）
+    case matchDetail(customerId: String, houseId: String)
     case aiProfile(customerId: String)
     case aiReport(matchId: String)
 
@@ -48,6 +50,7 @@ enum AppDestination: Hashable {
         case .houseDetail:      return "房源详情"
         case .houseEdit(let id): return id == nil ? "新增房源" : "编辑房源"
         case .match:            return "智能匹配"
+        case .matchDetail:      return "匹配详情"
         case .aiProfile:        return "AI 画像"
         case .aiReport:         return "AI 匹配报告"
         case .importHome:       return "数据导入"
