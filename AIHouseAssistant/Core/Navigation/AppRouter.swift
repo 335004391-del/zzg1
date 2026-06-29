@@ -12,7 +12,7 @@ struct AppRouter {
     func view(for destination: AppDestination) -> some View {
         switch destination {
         case .dashboard:
-            ComingSoonView(title: "首页", icon: "house.fill")
+            DashboardView()
 
         case .customerList:
             ComingSoonView(title: "客户列表", icon: "person.2.fill")

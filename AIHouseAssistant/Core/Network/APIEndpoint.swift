@@ -175,11 +175,13 @@ enum AppEndpoint {
     // MARK: - 仪表盘
 
     enum Dashboard: APIEndpoint {
+        case overview
         case summary
         case trend(period: String)
 
         var path: String {
             switch self {
+            case .overview:   return "/api/v1/dashboard/overview"
             case .summary:    return "/api/v1/dashboard/summary"
             case .trend:      return "/api/v1/dashboard/trend"
             }

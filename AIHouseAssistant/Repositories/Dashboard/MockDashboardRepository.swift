@@ -3,6 +3,11 @@ import Foundation
 /// Mock 仪表盘仓储 — 返回本地 MockData 统计数据，用于开发阶段 / Preview
 final class MockDashboardRepository: DashboardRepositoryProtocol {
 
+    func overview() async throws -> DashboardOverview {
+        try await simulateDelay(0.6)
+        return DashboardOverview.mock
+    }
+
     func summary() async throws -> DashboardStat {
         try await simulateDelay()
         return MockData.dashboardStat

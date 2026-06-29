@@ -47,6 +47,8 @@ struct MainTabView: View {
                 router.fullScreenView(for: modal)
             }
         }
+        // 全局 Toast 提示
+        .toastOverlay()
     }
 
     // MARK: - 子视图
@@ -74,6 +76,7 @@ struct MainTabView: View {
 
 #Preview {
     MainTabView()
+        .environmentObject(DependencyContainer.shared)
         .environment(NavigationManager.shared)
         .environment(SheetManager.shared)
         .environment(ModalManager.shared)

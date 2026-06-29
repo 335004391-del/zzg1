@@ -11,6 +11,12 @@ final class DashboardRepository: DashboardRepositoryProtocol, BaseRepository {
         self.apiClient = apiClient
     }
 
+    // MARK: - 首页聚合数据
+
+    func overview() async throws -> DashboardOverview {
+        try await fetch(AppEndpoint.Dashboard.overview)
+    }
+
     // MARK: - 统计数据
 
     func summary() async throws -> DashboardStat {
