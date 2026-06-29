@@ -15,11 +15,13 @@ struct AppRouter {
             DashboardView()
 
         case .customerList:
-            ComingSoonView(title: "客户列表", icon: "person.2.fill")
+            CustomerListView()
 
         case .customerDetail(let customerId):
-            ComingSoonView(title: "客户详情", icon: "person.text.rectangle.fill",
-                           subtitle: "客户 ID：\(customerId)")
+            CustomerDetailView(customerId: customerId)
+
+        case .customerEdit(let customerId):
+            CustomerEditView(customerId: customerId)
 
         case .followRecord(let customerId):
             ComingSoonView(title: "跟进记录", icon: "list.bullet.clipboard.fill",

@@ -10,6 +10,8 @@ enum AppDestination: Hashable {
     // MARK: - 客户
     case customerList
     case customerDetail(customerId: String)
+    /// 新增 / 编辑客户（nil = 新增，非 nil = 编辑）
+    case customerEdit(customerId: String?)
     case followRecord(customerId: String)
 
     // MARK: - 房源
@@ -34,6 +36,7 @@ enum AppDestination: Hashable {
         case .dashboard:        return "首页"
         case .customerList:     return "客户列表"
         case .customerDetail:   return "客户详情"
+        case .customerEdit(let id): return id == nil ? "新增客户" : "编辑客户"
         case .followRecord:     return "跟进记录"
         case .houseList:        return "房源列表"
         case .houseDetail:      return "房源详情"

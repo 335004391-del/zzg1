@@ -108,6 +108,21 @@
 		AF000011 /* DashboardSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF100011 /* DashboardSectionHeader.swift */; };
 		AF000012 /* DashboardRecommendationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF100012 /* DashboardRecommendationSection.swift */; };
 		AF000013 /* DashboardQuickActionsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF100013 /* DashboardQuickActionsGrid.swift */; };
+		AG000001 /* CustomerQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100001 /* CustomerQuery.swift */; };
+		AG000002 /* MockCustomerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100002 /* MockCustomerFactory.swift */; };
+		AG000003 /* CustomerUIMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100003 /* CustomerUIMapping.swift */; };
+		AG000004 /* CustomerEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100004 /* CustomerEvents.swift */; };
+		AG000005 /* CustomerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100005 /* CustomerListViewModel.swift */; };
+		AG000006 /* CustomerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100006 /* CustomerListView.swift */; };
+		AG000007 /* CustomerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100007 /* CustomerCard.swift */; };
+		AG000008 /* CustomerFilterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100008 /* CustomerFilterSheet.swift */; };
+		AG000009 /* CustomerDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100009 /* CustomerDetailViewModel.swift */; };
+		AG000010 /* CustomerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100010 /* CustomerDetailView.swift */; };
+		AG000011 /* CustomerAIProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100011 /* CustomerAIProfileCard.swift */; };
+		AG000012 /* FollowRecordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100012 /* FollowRecordRow.swift */; };
+		AG000013 /* CustomerEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100013 /* CustomerEditViewModel.swift */; };
+		AG000014 /* CustomerEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100014 /* CustomerEditView.swift */; };
+		AG000015 /* CustomerTagSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AG100015 /* CustomerTagSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -212,6 +227,21 @@
 		AF100011 /* DashboardSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DashboardSectionHeader.swift"; sourceTree = "<group>"; };
 		AF100012 /* DashboardRecommendationSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DashboardRecommendationSection.swift"; sourceTree = "<group>"; };
 		AF100013 /* DashboardQuickActionsGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DashboardQuickActionsGrid.swift"; sourceTree = "<group>"; };
+		AG100001 /* CustomerQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerQuery.swift"; sourceTree = "<group>"; };
+		AG100002 /* MockCustomerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockCustomerFactory.swift"; sourceTree = "<group>"; };
+		AG100003 /* CustomerUIMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerUIMapping.swift"; sourceTree = "<group>"; };
+		AG100004 /* CustomerEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerEvents.swift"; sourceTree = "<group>"; };
+		AG100005 /* CustomerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerListViewModel.swift"; sourceTree = "<group>"; };
+		AG100006 /* CustomerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerListView.swift"; sourceTree = "<group>"; };
+		AG100007 /* CustomerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerCard.swift"; sourceTree = "<group>"; };
+		AG100008 /* CustomerFilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerFilterSheet.swift"; sourceTree = "<group>"; };
+		AG100009 /* CustomerDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerDetailViewModel.swift"; sourceTree = "<group>"; };
+		AG100010 /* CustomerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerDetailView.swift"; sourceTree = "<group>"; };
+		AG100011 /* CustomerAIProfileCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerAIProfileCard.swift"; sourceTree = "<group>"; };
+		AG100012 /* FollowRecordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FollowRecordRow.swift"; sourceTree = "<group>"; };
+		AG100013 /* CustomerEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerEditViewModel.swift"; sourceTree = "<group>"; };
+		AG100014 /* CustomerEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerEditView.swift"; sourceTree = "<group>"; };
+		AG100015 /* CustomerTagSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomerTagSelector.swift"; sourceTree = "<group>"; };
 		AAPROD001 /* AIHouseAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AIHouseAssistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -378,8 +408,53 @@
 			children = (
 				AAGRP0021 /* Dashboard */,
 				AEGRP0002 /* Common */,
+				AGGRP0001 /* Customer */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		AGGRP0001 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				AG100003 /* CustomerUIMapping.swift */,
+				AG100004 /* CustomerEvents.swift */,
+				AGGRP0002 /* List */,
+				AGGRP0003 /* Detail */,
+				AGGRP0004 /* Edit */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		AGGRP0002 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				AG100005 /* CustomerListViewModel.swift */,
+				AG100006 /* CustomerListView.swift */,
+				AG100007 /* CustomerCard.swift */,
+				AG100008 /* CustomerFilterSheet.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		AGGRP0003 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				AG100009 /* CustomerDetailViewModel.swift */,
+				AG100010 /* CustomerDetailView.swift */,
+				AG100011 /* CustomerAIProfileCard.swift */,
+				AG100012 /* FollowRecordRow.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		AGGRP0004 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				AG100013 /* CustomerEditViewModel.swift */,
+				AG100014 /* CustomerEditView.swift */,
+				AG100015 /* CustomerTagSelector.swift */,
+			);
+			path = Edit;
 			sourceTree = "<group>";
 		};
 		AEGRP0002 /* Common */ = {
@@ -546,6 +621,7 @@
 			children = (
 				AC100046 /* Customer.swift */,
 				AC100045 /* CustomerTag.swift */,
+				AG100001 /* CustomerQuery.swift */,
 			);
 			path = Customer;
 			sourceTree = "<group>";
@@ -604,6 +680,7 @@
 			isa = PBXGroup;
 			children = (
 				AC100054 /* MockData.swift */,
+				AG100002 /* MockCustomerFactory.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -868,6 +945,21 @@
 				AF000011 /* DashboardSectionHeader.swift in Sources */,
 				AF000012 /* DashboardRecommendationSection.swift in Sources */,
 				AF000013 /* DashboardQuickActionsGrid.swift in Sources */,
+				AG000001 /* CustomerQuery.swift in Sources */,
+				AG000002 /* MockCustomerFactory.swift in Sources */,
+				AG000003 /* CustomerUIMapping.swift in Sources */,
+				AG000004 /* CustomerEvents.swift in Sources */,
+				AG000005 /* CustomerListViewModel.swift in Sources */,
+				AG000006 /* CustomerListView.swift in Sources */,
+				AG000007 /* CustomerCard.swift in Sources */,
+				AG000008 /* CustomerFilterSheet.swift in Sources */,
+				AG000009 /* CustomerDetailViewModel.swift in Sources */,
+				AG000010 /* CustomerDetailView.swift in Sources */,
+				AG000011 /* CustomerAIProfileCard.swift in Sources */,
+				AG000012 /* FollowRecordRow.swift in Sources */,
+				AG000013 /* CustomerEditViewModel.swift in Sources */,
+				AG000014 /* CustomerEditView.swift in Sources */,
+				AG000015 /* CustomerTagSelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,6 +5,12 @@ protocol CustomerRepositoryProtocol {
 
     // MARK: - 客户 CRUD
 
+    /// 按查询条件获取客户列表（搜索 + 筛选 + 排序 + 分页）
+    func query(_ query: CustomerQuery) async throws -> PageResponse<Customer>
+
+    /// 切换收藏状态，返回更新后的客户
+    func toggleFavorite(id: String) async throws -> Customer
+
     /// 获取客户列表（分页 + 搜索）
     func list(page: PageRequest) async throws -> PageResponse<Customer>
 

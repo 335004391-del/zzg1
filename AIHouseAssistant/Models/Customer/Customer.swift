@@ -92,12 +92,42 @@ struct Customer: Codable, Identifiable, Hashable {
     /// 最后更新时间
     var updatedAt: Date
 
+    // MARK: - CRM 状态（客户管理模块）
+
+    /// 是否收藏（销售重点关注）
+    var isFavorite: Bool = false
+    /// 成交概率（0~100，AI 预测，Mock）
+    var dealProbability: Int = 0
+    /// AI 综合评分（0~100，Mock）
+    var aiScore: Int = 0
+    /// 最近联系时间
+    var lastContactAt: Date? = nil
+
     // MARK: - 计算属性
 
     /// 预算描述（格式化显示）
     var budgetDescription: String {
         "\(Int(budgetMin)) ~ \(Int(budgetMax)) 万"
     }
+
+    /// 最近联系时间描述（如 "3 天前" / "从未联系"）
+    var lastContactDescription: String {
+        guard let date = lastContactAt else { return "从未联系" }
+        let days = Calendar.current.dateComponents([.day], from: date, to: Date()).day ?? 0
+        switch days {
+        case ..<0:    return "今天"
+        case 0:       return "今天"
+        case 1:       return "昨天"
+        case 2...30:  return "\(days) 天前"
+        default:      return "\(days / 30) 个月前"
+        }
+    }
+
+    /// 主要意向区域（取第一个，无则"不限"）
+    var primaryArea: String { preferredArea.first ?? "不限" }
+
+    /// 头像占位首字
+    var avatarText: String { String(name.prefix(1)) }
 
     /// 面积描述
     var areaDescription: String {

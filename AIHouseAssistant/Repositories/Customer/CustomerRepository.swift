@@ -11,6 +11,28 @@ final class CustomerRepository: CustomerRepositoryProtocol, BaseRepository {
         self.apiClient = apiClient
     }
 
+    // MARK: - 客户查询与收藏
+
+    func query(_ query: CustomerQuery) async throws -> PageResponse<Customer> {
+        // 真实环境：将查询条件转换为分页请求（详细筛选由后端处理）
+        let page = PageRequest(
+            page:     query.page,
+            pageSize: query.pageSize,
+            keyword:  query.keyword.isEmpty ? nil : query.keyword,
+            sortBy:   query.sort.rawValue,
+            ascending: query.sort == .nameAZ
+        )
+        return try await fetch(AppEndpoint.Customer.list(page))
+    }
+
+    func toggleFavorite(id: String) async throws -> Customer {
+        let endpoint = BodyEndpoint(
+            path: AppEndpoint.Customer.update(id: id).path + "/favorite",
+            method: .put
+        )
+        return try await fetch(endpoint)
+    }
+
     // MARK: - 客户列表与详情
 
     func list(page: PageRequest) async throws -> PageResponse<Customer> {
